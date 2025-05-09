@@ -1,4 +1,4 @@
-// Copyright (c) 2025 Ain Jeong All rights reserved
+// Copyright (c) 2025 Shanea Jaromay All rights reserved
 //
 // Created by: Shanea Jaromay
 // Created on: May 2025
@@ -12,15 +12,19 @@
 */
 // eslint-disable-next-line no-unused-vars
 function calculateNumber () {
-    let answer = 0 
   //input 
   const userNumber = parseFloat(document.getElementById('user-number').value)
 
   //process
-  for (let counter = 1; counter <= userNumber; counter++) {
-    answer += counter + "<br>";
-  }
+  const step1 = userNumber / 2
+  const step2 = userNumber + 1
+  const answer = step1 * step2
 
   // output
+  let output = ''
+  output += 'Step 1: ' + userNumber + ' / 2 = ' + step1 + '</br>'
+  output += 'Stpe 2: ' + userNumber + ' + 1 = ' + step2 + '</br>'
+  output += 'Step 3: ' + step1 + ' * ' + step2 + ' = ' + answer + '</br>'
+  output += 'Your answer is ' + answer + ' . '
   document.getElementById('answer').innerHTML = 'Your answer is:' + answer + '.'
 }

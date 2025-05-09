@@ -14,11 +14,11 @@
 function calculateNumber () {
     let answer = 0 
   //input 
-  const userNumber = parseFloat(document.getElementById('number-one').value)
+  const userNumber = parseFloat(document.getElementById('user-number').value)
 
   //process
   for (let counter = 1; counter <= userNumber; counter++) {
-    answer += counter
+    answer += counter + "<br>";
   }
 
   // output

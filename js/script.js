@@ -22,9 +22,9 @@ function calculateNumber () {
 
   // output
   let output = ''
-  output += 'Step 1: ' + userNumber + ' / 2 = ' + step1 + '</br>'
-  output += 'Stpe 2: ' + userNumber + ' + 1 = ' + step2 + '</br>'
-  output += 'Step 3: ' + step1 + ' * ' + step2 + ' = ' + answer + '</br>'
+  output += 'Step 1: ' + userNumber + ' / 2 = ' + step1 + '.'
+  output += 'Stpe 2: ' + userNumber + ' + 1 = ' + step2 + '.'
+  output += 'Step 3: ' + step1 + ' * ' + step2 + ' = ' + answer + '.'
   output += 'Your answer is ' + answer + ' . '
   document.getElementById('answer').innerHTML = 'Your answer is:' + answer + '.'
 }

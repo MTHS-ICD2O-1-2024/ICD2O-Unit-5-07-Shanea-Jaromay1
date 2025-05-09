@@ -18,7 +18,7 @@ function calculateNumber () {
 
   //process
   for (let counter = 1; counter <= userNumber; counter++) {
-    answer += userNumber
+    answer += counter
   }
 
   // output

@@ -23,7 +23,7 @@ function calculateNumber () {
   // output
     document.getElementById('answer').innerHTML =
   'Step 1: ' + userNumber + ' / 2 = ' + step1 + '<br>' + 
-  'Stpe 2: ' + userNumber + ' + 1 = ' + step2 + '<br>' + 
+  'Step 2: ' + userNumber + ' + 1 = ' + step2 + '<br>' + 
   'Step 3: ' + step1 + ' * ' + step2 + ' = ' + answer + '<br>' + 
   'Your answer is ' + answer + ' . '
 }
